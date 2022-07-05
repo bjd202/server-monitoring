@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  app:
+    image: 'node:16-alpine'
+    restart: always
+    build: .
+    networks:
+      - collect-nw
+
+networks:
+  collect-nw:
+    external: true

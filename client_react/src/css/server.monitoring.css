@@ -1,0 +1,27 @@
+.bg-progress-bar-puple{
+    background-color: #4D2D73 !important;
+}
+
+.apexcharts-tooltip {
+    /* background-color: rgb(144, 120, 173) !important; */
+    color: #000000;
+}
+
+.apexcharts-tooltip-title {
+    background-color: rgb(109, 78, 144) !important;   
+    color: #ffffff;
+}
+
+.droupdown-btn-puple > button {
+    background-color: #9078AD !important;
+    border-color: #9078AD !important;
+}
+
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
